@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <p>
+    Counter result:
+    <span
+      className="counter"
+    >
+      0
+    </span>
+  </p>
+  <button
+    className="addition-button one"
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    className="subtraction-button two"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      <input
+        className="number-input"
+        onChange={[Function]}
+        placeholder="change counter"
+        type="number"
+        value=""
+      />
+    </label>
+    <button
+      className="change-button three"
+      type="submit"
+    >
+      Change
+    </button>
+    <button
+      className="reset-button four"
+      onClick={[Function]}
+      type="reset"
+    >
+      Reset
+    </button>
+    
+  </form>
+</div>
+`;
