@@ -1,0 +1,36 @@
+.addition-button,
+.subtraction-button,
+.change-button,
+.reset-button {
+  padding: 10px 20px;
+  margin: 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  color: white;
+}
+
+.one {
+  background-color: rgb(23, 146, 23);
+}
+
+.two {
+  background-color: rgb(42, 42, 206);
+}
+
+.three {
+  background-color: orange;
+}
+
+.four {
+  background-color: crimson;
+}
+
+p {
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+input {
+  padding: 10px;
+}
