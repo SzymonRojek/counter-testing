@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 import "./styles.css";
+
 export const Counter = ({ start }) => {
   const [defaultStart, setDefaultStart] = useState(start);
   const [counter, setCounter] = useState(0);
@@ -40,40 +41,55 @@ export const Counter = ({ start }) => {
   };
 
   return (
-    <div>
-      <p>
-        Counter result:
-        <span className="counter">{`${start ? defaultStart : counter}`}</span>
+    <div id="container">
+      <p data-test="text">
+        Counter result:{" "}
+        <span data-test="counter" className="counter">{`${
+          start ? defaultStart : counter
+        }`}</span>
       </p>
 
-      <button className="addition-button one" onClick={additionHandler}>
+      <button
+        data-test="add-btn"
+        className="addition-button one"
+        onClick={additionHandler}
+      >
         +
       </button>
-      <button className="subtraction-button two" onClick={subtractionHandler}>
+      <button
+        data-test="sub-btn"
+        className="subtraction-button two"
+        onClick={subtractionHandler}
+      >
         -
       </button>
 
       <form onSubmit={handleSubmit}>
         <label>
           <input
-            className="number-input"
+            data-test="input-num"
+            className="input-number"
             placeholder="change counter"
             type="number"
             value={inputValue}
             onChange={handleChangeInputValue}
           ></input>
         </label>
-        <button type="submit" className="change-button three">
+        <button
+          type="submit"
+          data-test="change-btn"
+          className="change-button three"
+        >
           Change
         </button>
         <button
+          data-test="reset-btn"
           className="reset-button four"
           type="reset"
           onClick={handleReset}
         >
           Reset
         </button>
-        {""}
       </form>
     </div>
   );
