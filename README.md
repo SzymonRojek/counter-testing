@@ -2,7 +2,14 @@
 
 ## Available tests:
 
-Testing including:
+- **Snapshot**
+- check the [file](https://github.com/SzymonRojek/counter-testing/tree/main/src/components/__snapshots__)
+
+- **Enzyme:** npm run test and then press "a" to run all tests
+- check the [file](https://github.com/SzymonRojek/counter-testing/blob/main/src/components/Counter.test.js)
+
+- **Cypress:** npm run cypress 
+- check the [file](https://github.com/SzymonRojek/counter-testing/blob/main/cypress/integration/counter.spec.js)
 
 - check if the initial state of the component is 0, if yes then I don't have to pass the prop start
 - check it the initial state of the component is 10, when the prop start is equal to 10
@@ -11,10 +18,6 @@ Testing including:
 - czy po kliknięciu w przyciski stan odpowiednio się modyfikuje
 - check if after entering a number in the text field and pressing the "Change button" - is the state changed
 - check if the reset button is changing the state
-
-- **Enzyme:** npm run test and then press "a" to run all tests
-
-- **Cypress:** npm run cypress
 
 ## Available Scripts
 
