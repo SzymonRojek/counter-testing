@@ -42,14 +42,5 @@ describe("renders the counter", () => {
     cy.get("[data-test=reset-btn").click();
     cy.get("[data-test=counter]").contains("0");
   });
-
-  it("get random number and add it to the input, then to the counter as a value", () => {
-    cy.get("[data-test=input-num]").type(randomNumber());
-    cy.get("form").submit();
-    cy.get("[data-test=sub-btn").dblclick().dblclick();
-  });
 });
 
-function randomNumber() {
-  return Math.floor(Math.random() * 1000);
-}
