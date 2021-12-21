@@ -2,6 +2,16 @@
 
 ## Available tests:
 
+Testing including:
+
+- check if the initial state of the component is 0, if yes then I don't have to pass the prop start
+- check it the initial state of the component is 10, when the prop start is equal to 10
+- check if the component has got addition button and substraction button
+- check if after the click event the state is changed 
+- czy po kliknięciu w przyciski stan odpowiednio się modyfikuje
+- check if after entering a number in the text field and pressing the "Change button" - is the state changed
+- check if the reset button is changing the state
+
 - **Enzyme:** npm run test and then press "a" to run all tests
 
 - **Cypress:** npm run cypress
