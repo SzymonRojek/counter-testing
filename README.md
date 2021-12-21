@@ -6,7 +6,7 @@
 
 **Snapshot**
 
-- check the [file](https://github.com/SzymonRojek/counter-testing/tree/main/src/components/__snapshots__)
+- check the [file](https://github.com/SzymonRojek/counter-testing/blob/main/src/components/__snapshots__/Counter.test.js.snap)
 
 **Enzyme:** npm run test and then press "a" to run all tests
 
