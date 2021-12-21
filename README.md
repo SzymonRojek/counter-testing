@@ -2,22 +2,22 @@
 
 ## Available tests:
 
-- **Snapshot**
+**Snapshot**
 - check the [file](https://github.com/SzymonRojek/counter-testing/tree/main/src/components/__snapshots__)
 
-- **Enzyme:** npm run test and then press "a" to run all tests
+**Enzyme:** npm run test and then press "a" to run all tests
 - check the [file](https://github.com/SzymonRojek/counter-testing/blob/main/src/components/Counter.test.js)
 
-- **Cypress:** npm run cypress 
+**Cypress:** npm run cypress 
 - check the [file](https://github.com/SzymonRojek/counter-testing/blob/main/cypress/integration/counter.spec.js)
 
-- check if the initial state of the component is 0, if yes then I don't have to pass the prop start
-- check it the initial state of the component is 10, when the prop start is equal to 10
-- check if the component has got addition button and substraction button
-- check if after the click event the state is changed 
-- czy po kliknięciu w przyciski stan odpowiednio się modyfikuje
-- check if after entering a number in the text field and pressing the "Change button" - is the state changed
-- check if the reset button is changing the state
+The main concept is to check:
+- if the initial state of the component is 0, if yes then I don't have to pass the prop start
+- the initial state of the component is 10, when the prop start is equal to 10
+- the component has got addition button and substraction button
+- if after the click event the state is changed 
+- if after entering a number in the text field and pressing the "Change button" - is the state changed
+- if the reset button is changing the state
 
 ## Available Scripts
 
