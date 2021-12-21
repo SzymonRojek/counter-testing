@@ -29,6 +29,9 @@ The main concept is to check:
 
 <img src="./src/img/cypress-test-result.gif">
 
+<br>
+<br>
+
 ## Enzyme test result:
 
 <img src="./src/img/enzyme-test-result.gif">
