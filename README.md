@@ -25,6 +25,14 @@ The main concept is to check:
 - if after entering a number in the text field and pressing the "Change button" - is the state changed
 - if the reset button is changing the state
 
+## Cypress test result:
+
+<img src="./src/img/cypress-test-result.png">
+
+## Enzyme test result:
+
+<img src="./src/img/enzyme-test-result.png">
+
 ## Available Scripts
 
 In the project directory, you can run:
