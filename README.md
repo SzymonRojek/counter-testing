@@ -27,11 +27,11 @@ The main concept is to check:
 
 ## Cypress test result:
 
-<img src="./src/img/cypress-test-result.png">
+<img src="./src/img/cypress-test-result.gif">
 
 ## Enzyme test result:
 
-<img src="./src/img/enzyme-test-result.png">
+<img src="./src/img/enzyme-test-result.gif">
 
 ## Available Scripts
 
