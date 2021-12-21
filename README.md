@@ -34,6 +34,8 @@ The main concept is to check:
 <br>
 <br>
 
+### IMG
+
 <img src="./src/img/cypress-test-result.png">
 
 <br>
@@ -41,10 +43,14 @@ The main concept is to check:
 
 ## Enzyme test result:
 
+### GIF
+
 <img src="./src/img/enzyme-test-result.gif">
 
 <br>
 <br>
+
+### IMG
 
 <img src="./src/img/enzyme-test-result.png">
 
