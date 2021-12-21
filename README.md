@@ -27,7 +27,14 @@ The main concept is to check:
 
 ## Cypress test result:
 
+### GIF
+
 <img src="./src/img/cypress-test-result.gif">
+
+<br>
+<br>
+
+<img src="./src/img/cypress-test-result.png">
 
 <br>
 <br>
@@ -35,6 +42,14 @@ The main concept is to check:
 ## Enzyme test result:
 
 <img src="./src/img/enzyme-test-result.gif">
+
+<br>
+<br>
+
+<img src="./src/img/enzyme-test-result.png">
+
+<br>
+<br>
 
 ## Available Scripts
 
